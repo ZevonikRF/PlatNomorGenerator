@@ -1,0 +1,1 @@
+tipeKendaraan = ["1. Motor", "2. Mobil", "3. Van/Minibus", "4. Bus", "5. Truk (Kecil/Besar)"]
