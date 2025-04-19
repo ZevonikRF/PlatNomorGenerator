@@ -11,7 +11,7 @@ import datatipekendaraan
 
 layar = Tk()
 
-layar.geometry("800x400")
+layar.geometry("330x280")
 layar.title("Pelat Nomor Generator")
 
 dataDomisiliMeta = {
