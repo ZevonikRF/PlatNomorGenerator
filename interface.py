@@ -2,8 +2,7 @@ from tkinter import *
 import io
 import sys
 
-import mainB
-import mainD
+import mainB, mainD, mainZ
 import datadomisili
 import datatipekendaraan
 
@@ -15,8 +14,9 @@ layar.geometry("330x280")
 layar.title("Pelat Nomor Generator")
 
 dataDomisiliMeta = {
-    "B - JABODETABEK": datadomisili.domisiliJakarta,
-    "D - Bandung Raya dan Cimahi": datadomisili.domisiliBandungRaya
+    "B - Jabodetabek": datadomisili.domisiliJakarta,
+    "D - Bandung Raya dan Cimahi": datadomisili.domisiliBandungRaya,
+    "Z - Priangan Timur": datadomisili.domisiliPrianganTimur,
 }
 
 #########################################################################################################
@@ -47,10 +47,12 @@ def generatePelat():
         sys.stdout = output
 
         match daerah:
-            case "B - JABODETABEK":
+            case "B - Jabodetabek":
                 mainB.generator(domisiliIndeks, tipeKendaraanIndeks)
             case "D - Bandung Raya dan Cimahi":
                 mainD.generator(domisiliIndeks, tipeKendaraanIndeks)
+            case "Z - Priangan Timur":
+                mainZ.generator(domisiliIndeks, tipeKendaraanIndeks)
 
         sys.stdout = sys.__stdout__
         hasil = output.getvalue().strip()

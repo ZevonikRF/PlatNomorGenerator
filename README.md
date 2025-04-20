@@ -10,10 +10,12 @@ Data wilayah yang ditambahkan ke program ini:
 | ------ | ------ |
 |B| **Jakarta** (Bxx/Dxx/Hxx/Pxx/Rxx/Sxx/Txx/Uxx), **Kota Depok** (Exx/Zxx), **Kota Tangerang** (Cxx/Vxx), **Kota Tangerang Selatan** (Nxx/Wxx), **Kab. Tangerang** (Jxx), **Kota Bekasi** (Kxx), **Kab. Bekasi** (Fxx) |
 |D| **Kota Bandung** (Axx/Bx/Cx/Dx/Ex/Fx/Gx/Hx/Ix/Jx/Kx/Lx/Mx/Nx/Ox/Px/Qx/Rx), **Kab. Bandung** (Vxx/Yxx/Zxx), **Kab. Bandung Barat** (Uxx/Xxx), **Kota Cimahi** (Sxx/Tx) |
+|Z|**Kota Sumedang** (Axx/Bx/Cx), **Kota Garut** (Dxx/Ex/Fx/Gx), **Kota Tasikmalaya** (Hxx/Ix/Jx/Kx/Lx/Mx), **Kab. Tasikmalaya** (Nx/Ox/Px/Qx/Rx/Sx), **Kab. Ciamis** (Txx/Vx/Wx), **Kab. Pangandaran** (Ux), **Kota Banjar** (Xx/Yx/Zx)|
 
-*mengikuti Source: [Wikipedia](https://id.wikipedia.org/wiki/Tanda_Nomor_Kendaraan_Bermotor_Indonesia)
+*mengikuti Source: [Wikipedia](https://id.wikipedia.org/wiki/Tanda_Nomor_Kendaraan_Bermotor_Indonesia), [Samsat](https://samsat.info/daftar-lengkap-kode-plat-nomor-polisi-kendaraan-daerah-di-indonesia)
 
-### To Be Added
+### To Be Added/Worked
 - Executable GUI
 - Rapihiin struktur folder
-- Domisili Kode Z (Sumedang, Garut, Tasikmalaya, Ciamis, Pangandaran, Banjar)
+- Kode F (Bogor & Priangan Barat)
+- Benerin generator kode D (Bandung Barat & Kab. Bandung)

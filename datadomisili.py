@@ -20,3 +20,11 @@ domisiliBandungRaya = [
     "3. Bandung Barat",
     "4. Bandung Kabupaten"]
 
+domisiliPrianganTimur = [
+    "1. Sumedang",
+    "2. Garut",
+    "3. Tasikmalaya Kota",
+    "4. Tasikmalaya Kabupaten",
+    "5. Ciamis",
+    "6. Pangandaran",
+    "7. Banjar"]
