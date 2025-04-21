@@ -1,10 +1,9 @@
 from tkinter import *
 import io
 import sys
+sys.path.append(".")
 
-import mainB, mainD, mainZ
-import datadomisili
-import datatipekendaraan
+import platgenerator.mainB , platgenerator.mainD, platgenerator.mainZ , data.datadomisili, data.datatipekendaraan 
 
 # Program untuk menampilkan antarmuka GUI 
 
@@ -14,9 +13,9 @@ layar.geometry("330x280")
 layar.title("Pelat Nomor Generator")
 
 dataDomisiliMeta = {
-    "B - Jabodetabek": datadomisili.domisiliJakarta,
-    "D - Bandung Raya dan Cimahi": datadomisili.domisiliBandungRaya,
-    "Z - Priangan Timur": datadomisili.domisiliPrianganTimur,
+    "B - Jabodetabek": data.datadomisili.domisiliJakarta,
+    "D - Bandung Raya dan Cimahi": data.datadomisili.domisiliBandungRaya,
+    "Z - Priangan Timur": data.datadomisili.domisiliPrianganTimur,
 }
 
 #########################################################################################################
@@ -42,17 +41,17 @@ def generatePelat():
         return
     try:
         domisiliIndeks = dataDomisiliMeta[daerah].index(domisili) + 1
-        tipeKendaraanIndeks = datatipekendaraan.tipeKendaraan.index(tipe) + 1
+        tipeKendaraanIndeks = data.datatipekendaraan.tipeKendaraan.index(tipe) + 1
         output = io.StringIO()
         sys.stdout = output
 
         match daerah:
             case "B - Jabodetabek":
-                mainB.generator(domisiliIndeks, tipeKendaraanIndeks)
+                platgenerator.mainB.generator(domisiliIndeks, tipeKendaraanIndeks)
             case "D - Bandung Raya dan Cimahi":
-                mainD.generator(domisiliIndeks, tipeKendaraanIndeks)
+                platgenerator.mainD.generator(domisiliIndeks, tipeKendaraanIndeks)
             case "Z - Priangan Timur":
-                mainZ.generator(domisiliIndeks, tipeKendaraanIndeks)
+                platgenerator.mainZ.generator(domisiliIndeks, tipeKendaraanIndeks)
 
         sys.stdout = sys.__stdout__
         hasil = output.getvalue().strip()
@@ -75,7 +74,7 @@ dropdownDomisili.pack()
 
 clickDaerah.trace("w", updateDomisili)
 
-opsiTipeKendaraan = datatipekendaraan.tipeKendaraan
+opsiTipeKendaraan = data.datatipekendaraan.tipeKendaraan
 Label(layar, text="Pilih Tipe Kendaraan").pack()
 clickedTipeKendaraan = StringVar()
 clickedTipeKendaraan.set("Pilih Tipe Kendaraan")

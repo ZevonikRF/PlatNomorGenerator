@@ -1,6 +1,6 @@
 import random
-import datadomisili
-import datatipekendaraan
+# from ..data.datadomisili import *
+# from ..data.datatipekendaraan import *
 
 # Program untuk men-generate pelat nomor berdasarkan domisili (Bandung Raya & Cimahi) & jenis kendaraan 
 
@@ -27,10 +27,9 @@ def generator(userDomisili, userTipe):
 
     alfabet1BandungKota = ["A","B","C","D","E","F","G","H","I","J","K"]
     alfabet1Cimahi = ["A","B"]
-    alfabet1BandungBarat1 = ["A","B"]
+    alfabet1BandungBarat1 = ["A","B","C","D","E","F"]
     alfabet1BandungBarat2 = ["G","H"]
-    alfabet1BandungKab1 = ["B","C","D","E","F"]
-    alfabet1BandungKab2 = ["B","C","D"]
+    alfabet1BandungKab = ["B","C","D","E","F"]
 
 
     match userDomisili:
@@ -65,7 +64,7 @@ def generator(userDomisili, userTipe):
                 PelatHuruf2 = random.choice(alfabet)
                 print(f"D {str(angkaAcak)}  {kodePelat}{PelatHuruf2}")
         case "V" : 
-            PelatHuruf1 = random.choice(alfabet1BandungKab1)
+            PelatHuruf1 = random.choice(alfabet1BandungKab)
             PelatHuruf2 = random.choice(alfabet)
             print(f"D {str(angkaAcak)} {kodePelat}{PelatHuruf1}{PelatHuruf2}")
         case "X" :
@@ -81,11 +80,11 @@ def generator(userDomisili, userTipe):
         case "Y" | "Z" : 
             angkaNentuinBelakang = random.randint(1,2)
             if angkaNentuinBelakang == 1:
-                PelatHuruf1 = random.choice(alfabet1BandungKab2)
+                PelatHuruf1 = random.choice(alfabet1BandungKab)
                 PelatHuruf2 = random.choice(alfabet)
                 print(f"D {str(angkaAcak)} {kodePelat}{PelatHuruf1}{PelatHuruf2}")
             else:
-                PelatHuruf1 = random.choice(alfabet1BandungKab2)
+                PelatHuruf1 = random.choice(alfabet1BandungKab)
                 PelatHuruf2 = random.choice(alfabet)
                 print(f"D {str(angkaAcak)}  {kodePelat}{PelatHuruf2}")
         case _:

@@ -16,6 +16,4 @@ Data wilayah yang ditambahkan ke program ini:
 
 ### To Be Added/Worked
 - Executable GUI
-- Rapihiin struktur folder
 - Kode F (Bogor & Priangan Barat)
-- Benerin generator kode D (Bandung Barat & Kab. Bandung)

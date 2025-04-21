@@ -1,6 +1,6 @@
 import random
-import datadomisili
-import datatipekendaraan
+# from ..data.datadomisili import *
+# from ..data.datatipekendaraan import *
 
 # Program untuk men-generate pelat nomor berdasarkan domisili (JABODETABEK) & jenis kendaraan 
 
