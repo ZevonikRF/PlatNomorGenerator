@@ -1,6 +1,8 @@
 from tkinter import *
 import io
 import sys
+
+import platgenerator.mainF
 sys.path.append(".")
 
 import platgenerator.mainB , platgenerator.mainD, platgenerator.mainZ , data.datadomisili, data.datatipekendaraan 
@@ -16,6 +18,7 @@ dataDomisiliMeta = {
     "B - Jabodetabek": data.datadomisili.domisiliJakarta,
     "D - Bandung Raya dan Cimahi": data.datadomisili.domisiliBandungRaya,
     "Z - Priangan Timur": data.datadomisili.domisiliPrianganTimur,
+    "F - Priangan Barat" : data.datadomisili.domisiliBogorPrianganBarat,
 }
 
 #########################################################################################################
@@ -52,6 +55,8 @@ def generatePelat():
                 platgenerator.mainD.generator(domisiliIndeks, tipeKendaraanIndeks)
             case "Z - Priangan Timur":
                 platgenerator.mainZ.generator(domisiliIndeks, tipeKendaraanIndeks)
+            case "F - Priangan Barat":
+                platgenerator.mainF.generator(domisiliIndeks, tipeKendaraanIndeks)
 
         sys.stdout = sys.__stdout__
         hasil = output.getvalue().strip()

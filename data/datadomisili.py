@@ -28,3 +28,11 @@ domisiliPrianganTimur = [
     "5. Ciamis",
     "6. Pangandaran",
     "7. Banjar"]
+
+domisiliBogorPrianganBarat =[
+    "1. Bogor Kota",
+    "2. Bogor Kabupaten",
+    "3. Sukabumi Kota",
+    "4. Sukabumi Kabupaten",
+    "5. Cianjur"
+]
