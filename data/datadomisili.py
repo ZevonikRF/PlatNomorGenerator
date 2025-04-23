@@ -36,3 +36,9 @@ domisiliBogorPrianganBarat =[
     "4. Sukabumi Kabupaten",
     "5. Cianjur"
 ]
+
+domisiliKarawang = [
+    "1. Karawang",
+    "2. Purwakarta",
+    "3. Subang"
+]
