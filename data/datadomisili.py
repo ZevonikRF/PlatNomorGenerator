@@ -50,3 +50,12 @@ domisiliCirebon = [
     "4. Majalengka",
     "5. Kuningan"
 ]
+
+domisiliBanten = [
+    "1. Serang Kota",
+    "2. Serang Kabupaten",
+    "3. Pandeglang",
+    "4. Lebak",
+    "5. Cilegon",
+    "6. Tangerang Balaraja"
+]
