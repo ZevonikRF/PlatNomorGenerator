@@ -5,7 +5,8 @@ import sys
 import platgenerator.mainF
 sys.path.append(".")
 
-import platgenerator.mainB , platgenerator.mainD, platgenerator.mainZ, platgenerator.mainT, data.datadomisili, data.datatipekendaraan 
+import platgenerator.mainB , platgenerator.mainD, platgenerator.mainZ, platgenerator.mainT, platgenerator.mainE
+import data.datadomisili, data.datatipekendaraan 
 
 # Program untuk menampilkan antarmuka GUI 
 
@@ -17,10 +18,10 @@ layar.title("Pelat Nomor Generator")
 dataDomisiliMeta = {
     "B - Jabodetabek": data.datadomisili.domisiliJakarta,
     "D - Bandung Raya dan Cimahi": data.datadomisili.domisiliBandungRaya,
+    "E - Keresidenan Cirebon" : data.datadomisili.domisiliCirebon,
     "F - Priangan Barat" : data.datadomisili.domisiliBogorPrianganBarat,
     "T - Keresidenan Karawang" : data.datadomisili.domisiliKarawang,
     "Z - Priangan Timur": data.datadomisili.domisiliPrianganTimur,
-    
 }
 
 #########################################################################################################
@@ -61,6 +62,8 @@ def generatePelat():
                 platgenerator.mainF.generator(domisiliIndeks, tipeKendaraanIndeks)
             case "T - Keresidenan Karawang":
                 platgenerator.mainT.generator(domisiliIndeks, tipeKendaraanIndeks)
+            case "E - Keresidenan Cirebon":
+                platgenerator.mainE.generator(domisiliIndeks, tipeKendaraanIndeks)
 
         sys.stdout = sys.__stdout__
         hasil = output.getvalue().strip()

@@ -42,3 +42,11 @@ domisiliKarawang = [
     "2. Purwakarta",
     "3. Subang"
 ]
+
+domisiliCirebon = [
+    "1. Cirebon Kota",
+    "2. Cirebon Kabupaten",
+    "3. Indramayu",
+    "4. Majalengka",
+    "5. Kuningan"
+]
