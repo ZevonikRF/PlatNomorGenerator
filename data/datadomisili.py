@@ -6,13 +6,10 @@ domisiliJakarta = [
     "5. Jakarta Selatan",
     "6. Bekasi Kabupaten",
     "7. Bekasi Kota",
-    "8. Depok Kota",
-    "9. Depok Cinere",
+    "8. Depok",
+    "9. Tangerang Kelapa Dua",
     "10. Tangerang Kota",
-    "11. Tangerang Cikokol",
-    "12. Tangerang Ciledug",
-    "13. Tangerang Selatan Serpong",
-    "14. Tangerang Selatan Ciputat"]
+    "11. Tangerang Selatan"]
 
 domisiliBandungRaya = [
     "1. Bandung Kota",
@@ -58,4 +55,14 @@ domisiliBanten = [
     "4. Lebak",
     "5. Cilegon",
     "6. Tangerang Balaraja"
+]
+
+domisiliPekalongan = [
+    "1. Pekalongan Kota",
+    "2. Pekalongan Kabupaten",
+    "3. Batang",
+    "4. Pemalang",
+    "5. Tegal Kota",
+    "6. Tegal Kabupaten",
+    "7. Brebes"
 ]

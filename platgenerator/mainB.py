@@ -23,6 +23,9 @@ def generator(userDomisili, userTipe):
     arrayJakBar = ["B","H"]
     arrayJakTim = ["T","R"]
     arrayJakSel = ["S","D"]
+    arrayDepok = ["E","Z"]
+    arrayTangerangKota = ["C","V"]
+    arrayTangerangSelatan = ["N","W"]
     match userDomisili:
         case 1: kodePelat = "P"
         case 2: 
@@ -43,13 +46,10 @@ def generator(userDomisili, userTipe):
                 kodePelat = "S"
         case 6: kodePelat = "F"
         case 7: kodePelat = "K"
-        case 8: kodePelat = "E"
-        case 9: kodePelat = "Z"
-        case 10: kodePelat = "J"
-        case 11: kodePelat = "C"
-        case 12: kodePelat = "V"
-        case 13: kodePelat = "N"
-        case 14: kodePelat = "W"
+        case 8: kodePelat = random.choice(arrayDepok)
+        case 9: kodePelat = "J"
+        case 10: kodePelat = random.choice(arrayTangerangKota)
+        case 11: kodePelat = random.choice(arrayTangerangSelatan)
     match userTipe:
         case 1: angkaAcak = random.randint(3000,6999)
         case 2: angkaAcak = random.randint(1000,2999)
