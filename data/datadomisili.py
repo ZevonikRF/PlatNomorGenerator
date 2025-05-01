@@ -66,3 +66,20 @@ domisiliPekalongan = [
     "6. Tegal Kabupaten",
     "7. Brebes"
 ]
+
+domisiliPati = [
+    "1. Pati",
+    "2. Kudus",
+    "3. Jepara",
+    "4. Rembang",
+    "5. Blora",
+    "6. Grobogan"
+]
+
+domisiliSemarang = [
+    "1. Semarang Kota",
+    "2. Semarang Kabupaten",
+    "3. Salatiga",
+    "4. Kendal",
+    "5. Demak"
+]
