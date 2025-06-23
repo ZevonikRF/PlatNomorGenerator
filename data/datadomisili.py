@@ -83,3 +83,19 @@ domisiliSemarang = [
     "4. Kendal",
     "5. Demak"
 ]
+
+domisiliBanyumas = [
+    "1. Banyumas",
+    "2. Cilacap",
+    "3. Purbalingga",
+    "4. Banjarnegara"
+]
+
+domisiliKedu = [
+    "1. Magelang Kota",
+    "2. Magelang Kabupaten",
+    "3. Purworejo",
+    "4. Kebumen",
+    "5. Temanggung",
+    "6. Wonosobo"
+]
