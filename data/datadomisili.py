@@ -99,3 +99,21 @@ domisiliKedu = [
     "5. Temanggung",
     "6. Wonosobo"
 ]
+
+domisiliSurakarta = [
+    "1. Surakarta Kota",
+    "2. Sukoharjo",
+    "3. Klaten",
+    "4. Boyolali",
+    "5. Sragen",
+    "6. Karanganyar",
+    "7. Wonogiri",
+]
+
+domisiliYogya = [
+    "1. Yogyakarta Kota",
+    "2. Bantul",
+    "3. Kulon Progo",
+    "4. Gunungkidul",
+    "5. Sleman"
+]

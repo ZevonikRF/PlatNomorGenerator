@@ -10,6 +10,8 @@ Data wilayah yang ditambahkan ke program ini (Pulau Jawa):
 | ------ | ------ |
 |A| <ul><li>**Kota Serang** (Ax/Bx/Cx/Dx)</li><li>**Kab. Serang** (Ex/Fx/Gx/Hx/Ix)</li><li>**Kab. Pandeglang** (Jx/Kx/Lx/Mx)</li><li>**Kab. Lebak** (Nx/Ox/Px/Qx)</li><li>**Kota Cilegon** (Rx/Sx/Tx/Ux)</li><li>**Kab. Tangerang (Balaraja)** (Vx/Wxx/Xxx/Yx/Zx)</li></ul>|
 |AA|Soon|
+|AB|Soon|
+|AD|Soon|
 |B| <ul><li>**Jakarta** (Bxx/Dxx/Hxx/Pxx/Rxx/Sxx/Txx/Uxx)</li><li>**Kota Depok** (Exx/Zxx)</li><li>**Kota Tangerang** (Cxx/Vxx)</li><li>**Kota Tangerang Selatan** (Nxx/Wxx)</li><li>**Kab. Tangerang (Kelapa Dua)** (Jxx)</li><li>**Kota Bekasi** (Kxx)</li><li>**Kab. Bekasi** (Fxx)</li></ul> |
 |D| <ul><li>**Kota Bandung** (Axx/Bx/Cx/Dx/Ex/Fx/Gx/Hx/Ix/Jx/Kx/Lx/Mx/Nx/Ox/Px/Qx/Rx)</li><li>**Kab. Bandung** (Vxx/Yxx/Zxx),</li><li>**Kab. Bandung Barat** (Uxx/Xxx)</li><li>**Kota Cimahi** (Sxx/Tx)</li></ul> |
 |E| <ul><li>**Kota Cirebon** (Ax/Bxx/Cx/Dx/Ex/Fx/Gx)</li><li>**Kab. Cirebon** (Hxx/Ix/Jx/Kx/Lx/Mxx/Nx/Ox)</li><li>**Kab. Indramayu** (Px/Qx/Rx/Sx/Tx)</li><li>**Kab. Majalengka** (Uxz/Vx/Wx/Xx)</li><li>**Kab. Kuningan** (Yxx/Zxx)</li></ul>|
@@ -26,5 +28,5 @@ Data wilayah yang ditambahkan ke program ini (Pulau Jawa):
 ### To Be Added/Worked
 - Executable GUI (Preq. Pulau Jawa + Madura selesai)
 - Re-adjust README (Preq. Pulau Jawa + Madura selesai)
-- Kode AD (Keresidenan Surakarta)
-- Kode AB (Yogyakarta)
+- Kode S (Bojonegoro, Mojokerto, Lamongan, dsb)
+- Kode W (Gresik, Sidoarjo)
